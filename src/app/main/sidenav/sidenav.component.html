@@ -1,0 +1,58 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened >
+    <div class="aside">TRACK </div>
+    <div class = 'flex-side-nav'>
+      <div class="button-container">
+        <button mat-icon-button (click)="getTimers()" >
+          <mat-icon>schedule</mat-icon>
+          <span>Timer</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="aside">ANALYZE </div>
+    <div class = 'flex-side-nav'>
+      <div class="button-container">
+        <button mat-icon-button >
+          <!-- <fa-icon [icon]="fileIcon"></fa-icon> -->
+          <mat-icon> list_alt</mat-icon>
+          <span> Reports </span>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="aside">MANAGE </div>
+    <div class = 'flex-side-nav'>
+      <div class="button-container">
+        <button mat-icon-button  >
+          <mat-icon>folder</mat-icon>
+          <span>Projects</span>
+        </button>
+      </div>
+
+    </div>
+
+    <div class = 'flex-side-nav'>
+      <div class="button-container">
+        <button mat-icon-button  >
+          <mat-icon>person</mat-icon>
+          <span>Clents</span>
+        </button>
+      </div>
+    </div>
+
+    <div class = 'flex-side-nav'>
+      <div class="button-container">
+        <button class="side-bar-button" mat-icon-button  >
+          <mat-icon>people</mat-icon>
+           <span>Team</span>
+        </button>
+      </div>
+    </div>
+
+
+
+  </mat-sidenav>
+  <mat-sidenav-content>Main content</mat-sidenav-content>
+</mat-sidenav-container>
